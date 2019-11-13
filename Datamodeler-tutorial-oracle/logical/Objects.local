@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="F96DEA63-DBAB-DF38-78BB-E70D2253EBC5" name="Books" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B2921E1A-AA7E-A7A1-6B61-5D449D7FE99C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C73E39D6-1B2C-A356-0D5E-45E4780AAFDB" name="Students" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B2921E1A-AA7E-A7A1-6B61-5D449D7FE99C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="91EFC9EE-D848-7A05-57DD-BD43FE712BF2" name="Transactions" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B2921E1A-AA7E-A7A1-6B61-5D449D7FE99C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="0BD7F3BA-FF5B-EBB3-FB2C-41384C02846C" name="transactionsWithBooks" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B2921E1A-AA7E-A7A1-6B61-5D449D7FE99C" propertySourceId="F96DEA63-DBAB-DF38-78BB-E70D2253EBC5" propertyTargetId="91EFC9EE-D848-7A05-57DD-BD43FE712BF2"/>
+   <object objectType="Relation" objectID="DC40EBCB-4881-0EFC-9478-37CD8F0C7467" name="transactionsWithStudents" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B2921E1A-AA7E-A7A1-6B61-5D449D7FE99C" propertySourceId="C73E39D6-1B2C-A356-0D5E-45E4780AAFDB" propertyTargetId="91EFC9EE-D848-7A05-57DD-BD43FE712BF2"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="918458D2-B552-9553-429B-9915B082C7EF" name="Books">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>F96DEA63-DBAB-DF38-78BB-E70D2253EBC5</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="book_id" id="4B6E3262-4360-4447-D634-A560F61FA5EC">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>7C7A3C80-4D25-A2AA-9C44-3CDB5C56DF8A</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="58A94DD5-83E6-9BE1-FB5B-0DFF3DBC9188">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>D442E0BD-2829-2E0F-86AE-74492FDF62EA</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_last_name" id="847CC152-8509-3CCC-44DD-A2B49F9B6CD5">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>BC9DDFA5-DCC4-AD19-71B3-CE304082208B</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author_fist_name" id="F1939B72-549A-386F-7B1B-DE09BA671055">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:41:30 UTC</createdTime>
+<generatorID>167439C1-137F-E8E8-2DAC-2DD3F3337E82</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="FEA00F4C-ADA8-193D-85B6-4E7C26CA34F5">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:41:30 UTC</createdTime>
+<generatorID>5DC8D05D-2A16-12B0-2633-695AC8F89FEC</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84C70E1D-CBAD-D72E-1C16-50AE17CF2922" name="Books_PK">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>9E05D1DC-3E42-4C07-78FB-D7F48A6F68FE</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B6E3262-4360-4447-D634-A560F61FA5EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

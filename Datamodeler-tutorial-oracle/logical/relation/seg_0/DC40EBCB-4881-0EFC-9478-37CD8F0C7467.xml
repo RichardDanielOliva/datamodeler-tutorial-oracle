@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="transactionsWithStudents" directorySegmentName="seg_0" id="DC40EBCB-4881-0EFC-9478-37CD8F0C7467">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:26:15 UTC</createdTime>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<engineerTo>
+<item key="E829FDED-D759-C694-AA89-738D07F20300" value="true"/>
+</engineerTo>
+<sourcePk>F231348D-6C0D-C252-F99C-B663E3EEACDD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C73E39D6-1B2C-A356-0D5E-45E4780AAFDB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>91EFC9EE-D848-7A05-57DD-BD43FE712BF2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

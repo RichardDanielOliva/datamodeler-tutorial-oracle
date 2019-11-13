@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Datamodeler-tutorial-oracle2" id="20E964D3-EA60-8B65-8E11-0CF75D71ABB4" version="3.5">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:09:43 UTC</createdTime>
+<ownerDesignName>Datamodeler-tutorial-oracle</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>20E964D3-EA60-8B65-8E11-0CF75D71ABB4</designId>
+</OSDM_Design>

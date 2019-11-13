@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFBF13B9-190E-9364-2EE4-8A4ADD9FF04C" name="Students">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>C73E39D6-1B2C-A356-0D5E-45E4780AAFDB</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="last_name" id="3E584178-FE56-4F2F-DBBE-000601E9D1C2">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>F30529A8-6638-4542-8FF4-8363E85C0167</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_id" id="1E368105-0ED8-B205-30F3-BAA44506A138">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>CD94EEB2-B005-EFEC-79F4-A1300A0422D1</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name_1" id="DF65EECD-6527-C51C-4777-870CF9648B32">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:41:30 UTC</createdTime>
+<generatorID>C5CBEAFA-E6BE-88EA-316D-A9118DAF7B52</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_address" id="4362B023-215B-A5DF-989B-93686C48A122">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:41:30 UTC</createdTime>
+<generatorID>451DBE5C-84BF-929A-EAEC-2575A97FEE4C</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="BD5F02E2-08E6-E37B-A4B1-BD4FFBAF0412">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:41:30 UTC</createdTime>
+<generatorID>A3D6623D-0C60-ED52-E993-EB097605CA8C</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="8319BA24-CB3F-3416-F7C0-B9D50FC86108">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:41:30 UTC</createdTime>
+<generatorID>36852CBB-E413-E87B-7920-40CEF4EF5BC1</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="DC954E4E-725F-D4B2-871C-B3662EA03834">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:41:30 UTC</createdTime>
+<generatorID>99B0EE81-E6A4-54DC-3B00-AB08F0286BE7</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="CDF8DFBA-D2EB-6F54-20B3-563CC8855555">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:41:30 UTC</createdTime>
+<generatorID>B953E4C8-0DB4-B55B-01DF-645BF0526DAF</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="847EAA24-D022-A5F4-2606-C9B2F1CAB946" name="Students_PK">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>F231348D-6C0D-C252-F99C-B663E3EEACDD</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E368105-0ED8-B205-30F3-BAA44506A138"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

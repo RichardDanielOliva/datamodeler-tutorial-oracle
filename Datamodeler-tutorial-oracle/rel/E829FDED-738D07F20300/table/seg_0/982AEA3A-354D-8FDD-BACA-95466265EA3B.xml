@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="982AEA3A-354D-8FDD-BACA-95466265EA3B" name="Transactions">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>91EFC9EE-D848-7A05-57DD-BD43FE712BF2</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="24E96F90-F622-C150-0C57-8648137C6A2D">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>0E31D44A-534D-FDCD-1CBE-5647D01C7430</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_date" id="64A0CB82-949F-FE3F-E2BC-24904C071259">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>DF9B00BF-2C4D-F084-F748-0DA12905155B</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_type" id="3B2A5E37-F43F-64A7-B165-3D0D9098BBAA">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>FB429872-9AD6-36A8-1BC9-B77B58971815</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Books_book_id" id="5F7E624E-9EFC-641D-F705-1BE2B325608E">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>0B40213E-F106-401F-1F5D-0FF1DFDF9D28</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2322FE8A-724D-EA8A-C19F-959DA274E956" referredColumn="4B6E3262-4360-4447-D634-A560F61FA5EC"/>
+</associations>
+</Column>
+<Column name="Students_student_id" id="F90FB269-D598-851A-1FE2-8920DA569C92">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>16B0F125-7166-913A-9895-00EF3CD3B1E0</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBEAB4F4-CE7A-79DF-B4B0-D1B8A51C9E41" referredColumn="1E368105-0ED8-B205-30F3-BAA44506A138"/>
+</associations>
+</Column>
+<Column name="student_id" id="433B4B46-0D04-CB0C-2866-D0EE1C0B0A63">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:41:30 UTC</createdTime>
+<generatorID>31EC5466-6EF7-1A69-6E9B-BF47631A8743</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="953E156E-369F-C0F5-9C03-4D28CEEB5A0E" name="Transactions_PK">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>2D8EEC34-78E1-EDDE-3383-193A694135B2</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24E96F90-F622-C150-0C57-8648137C6A2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6463BC72-9D4A-8683-EE6D-2EB8E2E234E0" name="Transactions_Books_FK">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>0BD7F3BA-FF5B-EBB3-FB2C-41384C02846C</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F7E624E-9EFC-641D-F705-1BE2B325608E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF97C6AC-45D9-6CEE-1B41-F0D07E9E8AC1" name="Transactions_Students_FK">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:27:00 UTC</createdTime>
+<generatorID>DC40EBCB-4881-0EFC-9478-37CD8F0C7467</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F90FB269-D598-851A-1FE2-8920DA569C92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

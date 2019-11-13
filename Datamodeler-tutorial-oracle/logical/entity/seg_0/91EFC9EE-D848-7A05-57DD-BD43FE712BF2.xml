@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91EFC9EE-D848-7A05-57DD-BD43FE712BF2" name="Transactions">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:23:33 UTC</createdTime>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<engineerTo>
+<item key="E829FDED-D759-C694-AA89-738D07F20300" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="transaction_id" id="0E31D44A-534D-FDCD-1CBE-5647D01C7430">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:23:42 UTC</createdTime>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<engineerTo>
+<item key="E829FDED-D759-C694-AA89-738D07F20300" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transaction_date" id="DF9B00BF-2C4D-F084-F748-0DA12905155B">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:24:15 UTC</createdTime>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<engineerTo>
+<item key="E829FDED-D759-C694-AA89-738D07F20300" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transaction_type" id="FB429872-9AD6-36A8-1BC9-B77B58971815">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:24:40 UTC</createdTime>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<engineerTo>
+<item key="E829FDED-D759-C694-AA89-738D07F20300" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="book_id" id="0B40213E-F106-401F-1F5D-0FF1DFDF9D28">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:25:27 UTC</createdTime>
+<generatorID>0BD7F3BA-FF5B-EBB3-FB2C-41384C02846C</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<engineerTo>
+<item key="E829FDED-D759-C694-AA89-738D07F20300" value="true"/>
+</engineerTo>
+<referedAttribute>7C7A3C80-4D25-A2AA-9C44-3CDB5C56DF8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_id" id="31EC5466-6EF7-1A69-6E9B-BF47631A8743">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-13 17:40:30 UTC</createdTime>
+<generatorID>DC40EBCB-4881-0EFC-9478-37CD8F0C7467</generatorID>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<engineerTo>
+<item key="E829FDED-D759-C694-AA89-738D07F20300" value="true"/>
+</engineerTo>
+<referedAttribute>CD94EEB2-B005-EFEC-79F4-A1300A0422D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D8EEC34-78E1-EDDE-3383-193A694135B2" name="Transactions PK">
+<createdBy>duw206</createdBy>
+<createdTime>2019-11-04 20:24:04 UTC</createdTime>
+<ownerDesignName>Datamodeler-tutorial-oracle2</ownerDesignName>
+<engineerTo>
+<item key="E829FDED-D759-C694-AA89-738D07F20300" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E31D44A-534D-FDCD-1CBE-5647D01C7430</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
